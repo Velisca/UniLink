@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    text-align: center; 
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    color: #666;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.image-container,
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container {
+    flex: 0 0 40%; 
+    margin-right: 20px; 
+}
+
+.text-container {
+    flex: 1; 
+}
+
+.image-container img,
+.vision img,
+.mission img,
+.member img {
+    width: 100%; 
+    border-radius: 5px;
+}
+
+.company-intro-content {
+    display: flex;
+    align-items: stretch; 
+    margin-bottom: 60px; 
+}
+
+.vision-mission {
+    display: flex;
+    margin-top: 30px;
+}
+
+.vision,
+.mission {
+    flex: 1;
+    margin-right: 20px;  
+}
+
+.content-container {
+    background-color: #f0f0f0; 
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.item {
+    flex: 1;
+}
+
+.image {
+    text-align: center;
+    margin-right: 20px; 
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+.member-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.member {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}

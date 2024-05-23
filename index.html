@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>關於我們</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            color: white; /* Change the header text color to white */
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        .member-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .member {
+            flex: 1;
+            text-align: center;
+            margin: 10px;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        .member img {
+            width: 400px; 
+            height: 200px; 
+            object-fit: cover; 
+        }
+
+        .vision-mission {
+            display: flex;
+            justify-content: space-between; /* Adjust spacing */
+            margin-top: 30px;
+        }
+
+        .vision, .mission {
+            flex: 1;
+            text-align: center;
+            margin: 0 10px; /* Adjust margin to ensure equal spacing */
+        }
+
+        .vision img, .mission img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .vision .content-container, .mission .content-container {
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            height: auto; /* Ensure auto height for equal sizing */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>關於我們的公司</h1>
+    </header>
+    <section>
+        <h2>公司簡介</h2>
+        <div class="company-intro-content">
+            <div class="image-container">
+                <img src="company_building.jpeg" alt="公司圖片">
+            </div>
+            <div class="text-container">
+                <p>UniLink 是一家開創性的線上平台，致力於改變大學生尋找和確保實習機會的方式。我們的使命是簡化實習搜索流程，為學生提供定制且可靠的資源，讓他們發現符合職業抱負的有意義經驗。
+                在 UniLink，透明度、便捷性和品質貫穿我們的一切工作。我們努力為學生提供無縫且豐富的體驗，幫助他們在實習世界中航行，確保他們獲得準確信息和有價值資源，以促進其專業成長。
+                憑藉一支充滿激情的團隊致力於支持和賦予學生力量，UniLink 的目標是擴大影響力，建立新夥伴關係，並引入創新功能，以更好地服務我們不斷增長的用戶社群。通過尖端的匹配算法、社區參與計劃和專家支援，我們致力於促進成功的實習連接，並培育下一代專業人士的職業發展。加入我們的 UniLink，開展您在所選領域的光明未來之旅。</p>
+            </div>
+        </div>
+
+        <div class="vision-mission">
+            <div class="vision item">
+                <div class="image">
+                    <img src="vision_image.jpeg" alt="願景圖片">
+                </div>
+                <div class="content">
+                    <h2>願景</h2>
+                    <div class="content-container">
+                        <p>在 UniLink，我們深信透過創新和技術，我們可以為大學生打開一扇通往實習成功的大門。我們致力於建立一個平台，不僅提供實習機會的搜索功能，更重要的是為每位學生量身定制的機會。透過 UniLink，我們追求讓大學生輕鬆且有信心地探索職業道路，找到與其獨特專業目標相契合的豐富實習機會。我們的願景是成為學生們信賴的導航者，引領他們踏上成功之路，實現他們的職業抱負。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission item">
+                <div class="image">
+                    <img src="mission_photo.jpeg" alt="使命圖片">
+                </div>
+                <div class="content">
+                    <h2>使命</h2>
+                    <div class="content-container">
+                        <p>UniLink 的使命是通過提供一個平台，不僅簡化實習搜索，還為學生提供工具和知識，以在所選領域脫穎而出。我們致力於為每位學生打造一個量身定制的實習體驗，讓他們在尋找和參與實習機會時感到自信和專業。透過 UniLink，我們不僅提供機會，更助力學生發展專業技能和知識，使他們在職場中脫穎而出，實現自己的職業抱負。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="values">
+            <h2>價值觀</h2>
+            <h3><i>這些價值觀指引著 UniLink 的使命，我們致力於營造一個真實、包容且品質優良的實習平台，助力每位學生實現他們的職業理想。</i></h3>
+            <h3>透明度</h3>
+            <p>在 UniLink，透明度是我們服務的基石。我們致力於向學生提供真實可靠的實習信息，建立信任和透明的互動模式，確保他們能夠靈活且放心地選擇最適合自己的機會。</p>
+            <h3>便捷性</h3>
+            <p>確保所有學生都能輕鬆獲得實習機會是 UniLink 的核心價值觀之一。我們將便利性置於服務設計的前沿，讓每位學生無論背景如何，都能輕鬆地探索、申請和參與各種實習機會。</p>
+            <h3>品質</h3>
+            <p>UniLink 堅持提供符合最高品質標準的實習列表和資源。我們不僅追求表面的優越性，更關注提供給學生真正有價值和豐富的實習經驗，以此推動其專業和個人成長。</p>
+        </section>
+
+        <section id="future-goals">
+            <h2>未來目標</h2>
+            <div class="slideshow-container">
+                <img class="slide" src="1.png" style="display: block;">
+                <img class="slide" src="2.png">
+                <img class="slide" src="3.png">
+                <img class="slide" src="4.png">
+                <img class="slide" src="5.png">
+                <img class="slide" src="6.png">
+            </div>
+        </section>
+
+        <section id="members">
+            <h2>成員</h2>
+            <div class="member-container">
+                <div class="member">
+                    <img src="yihan.JPG" alt="成員 1">
+                    <p>溫苡含</p>
+                </div>
+                <div class="member">
+                    <img src="qiaowei.jpg" alt="成員 2">
+                    <p>詹喬崴</p>
+                </div>
+                <div class="member">
+                    <img src="shubi.JPG" alt="成員 3">
+                    <p>何舒葦</p>
+                </div>
+                <div class="member">
+                    <img src="angel.JPG" alt="成員 4">
+                    <p>潘柔玉</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
